@@ -6,11 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo</title>
     <link rel="icon" href="Imagem/letraRR.png">
+
+    <!-- padding: 150px 80px 150px 80px; = forma extensa referente ao padding, esquerda, topo, direita, baixo da página  ou apenas dois valores, sendo*/
+            /* padding-left: 200px;
+            padding-right: 200px;
+            padding-bottom: 200px;
+            padding-top: 200px;
+            
+            mexe na localização dos elementos da página 
+            
+            margin de fora para dentro serve para espaçamentos também
+            
+            width fit content se adapta ao tamanho do conteúdo
+            
+            para card (arredondar bordas) border-radius e mexe com o px -->
+    <style>
+        body {
+            background: #020024;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(30, 30, 34) 35%, rgb(38, 42, 43) 100%);
+            ;
+            color: rgb(206, 203, 203);
+            display: flexbox;
+            text-align: center;
+            margin: auto;
+
+        }
+
+        h1 {
+            color: rgb(132, 167, 173);
+            font-size: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 3px;
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+
+        h3 {
+            color: rgb(131, 151, 151);
+
+        }
+
+        h2 {
+            color: rgb(127, 168, 166);
+        }
+
+        .objetivo {
+            background-color: rgba(92, 128, 161, 0.418);
+            border-radius: 30px 30px;
+            width: fit-content;
+            padding: 30px 20px;
+            display: flexbox;
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .formacao {
+            background-color: rgba(92, 128, 161, 0.418);
+            border-radius: 30px 30px;
+            width: fit-content;
+            padding: 30px 20px;
+            display: flexbox;
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .prof {
+            background-color: rgba(92, 128, 161, 0.418);
+            border-radius: 30px 30px;
+            width: fit-content;
+            padding: 30px 20px;
+            display: flexbox;
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .curso {
+            background-color: rgba(92, 128, 161, 0.418);
+            border-radius: 30px 30px;
+            width: fit-content;
+            padding: 30px 20px;
+            display: flexbox;
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .cabeca {
+            background-color: rgba(92, 128, 161, 0.418);
+            border-radius: 30px 30px;
+            padding: 10px 20px;
+            margin: 30px;
+            display: flexbox;
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .habilidade {
+            background-color: rgba(92, 128, 161, 0.418);
+            border-radius: 30px 30px;
+            width: fit-content;
+            padding: 30px 20px;
+            display: flexbox;
+            text-align: center;
+            margin: 30px auto;
+        }
+    </style>
 </head>
 
 <body>
 
-    <header>
+    <header class="cabeca">
         <h1>Currículo Ricardo Guido</h1>
         <p>Telefone: (11)98173-0304</p>
         <img src="Imagem/linkedinnn.png" width="10" alt="imagem">
@@ -26,7 +130,7 @@
 
         </section>
 
-        <section>
+        <section class="objetivo">
             <h2>Objetivo Profissional</h2>
             <p>
                 Atuar em uma posição que permita o desenvolvimento de habilidades em análise de dados,
@@ -34,7 +138,7 @@
             </p>
         </section>
 
-        <section>
+        <section class="formacao">
             <h2>Formação Acadêmica</h2>
 
             <h3>Ensino Médio Completo</h3>
@@ -47,7 +151,7 @@
             <p>Técnico em informática para internet - Senac - Previsão de conclusão 2027</p>
         </section>
 
-        <section>
+        <section class="prof">
             <h2>Experiência Profissional</h2>
 
             <article>
@@ -72,14 +176,14 @@
 
         </section>
 
-        <section>
+        <section class="curso">
             <h2>Cursos e Certificações</h2>
             <ul>
                 <li>Yellow Belt – Certificação em gestão de processos e melhoria contínua.</li>
             </ul>
         </section>
 
-        <section>
+        <section class="habilidade">
             <h2>Habilidades</h2>
             <ul>
                 <li>Conhecimento básico em SAP (ex.: M33K – Visualização de Contratos)</li>
