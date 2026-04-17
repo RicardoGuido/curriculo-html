@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #6977E0;
+background: linear-gradient(90deg, rgba(105, 119, 224, 1) 56%, rgba(116, 82, 172, 1) 100%);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 20px #00000046;
+    /* 
+    box-shadow
+    
+    1- Offset-x -> Deslocamento eixo X (horizontal)
+
+    2- Offset-y -> Deslocamento eixo Y (vertical)
+
+    3- Blur -> Desfoque da sombra
+
+    4- Spread -> Expansão da sombra
+
+    5- Color -> cor da sombra
+
+    */
+}
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+
+    background-color: #6977E0;
+    width: 120px;
+    height: 120px;
+    outline: 2px solid rgb(255, 255, 255);
+    outline-offset: -5px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+}
+
+h1{
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+h3{
+    color:#6977E0;
+    font-weight: 400;
+}
+
+p {
+    text-align: center;
+    line-height: 1.7;
+    color: #555;
+
+}
+
+h4{
+font-size: 22px;
+font-weight: 500;
+
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+
+}
+ul li{
+    list-style: none;
+    background-color: #f7fafc;
+    outline: 2px solid #e2e8f0;
+    border-radius: 20px;
+    padding: 2px 8px;
+    color:#6977E0
+}
+
+button {
+    font-weight: 600;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 25px;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(105, 119, 224, 1) 56%, rgba(116, 82, 172, 1) 100%); ;
+    transition: background 1s ease;
+    box-shadow: 0px 0px 20px 10px #6977e063;
+
+
+}
+button:hover {
+    
+    background:#6977E0;
+   
+}
+

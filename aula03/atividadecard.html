@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        body {
+            background: #6977E0;
+            background: linear-gradient(90deg, rgba(105, 119, 224, 1) 7%, rgba(116, 82, 172, 1) 98%);
+
+        }
+
+        .card {
+            background-color: rgb(255, 255, 255);
+            margin: auto;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-sizing: content-box;
+            width: 350px;
+            box-shadow: inset;
+
+            border-radius: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .linguagem {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        li {
+            list-style: none;
+            font-size: 1.5rem;
+            border-radius: 60px;
+            background-color: #6553a618;
+            padding: 5px 3px;
+
+        }
+
+        .contato {
+            background: #6977E0;
+            background: linear-gradient(90deg, rgba(105, 119, 224, 1) 7%, rgba(116, 82, 172, 1) 98%);
+            border-radius: 100px 100px;
+            width: fit-content;
+            margin: auto;
+
+            text-align: center;
+            justify-content: center;
+
+
+
+        }
+
+        .desenvolvedor {
+            color: royalblue;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <section class="card">
+        <div>
+            <h1>João Silva</h1>
+            <h3 class="desenvolvedor">Desenvolvedor Front-End</h3>
+            <p>Apaixonado por criar experiências digitais incríveis</p>
+            <p>
+                Especializado em HTML, CSS e JavaScript com foco em interfaces modernas e responsivas
+            </p>
+        </div>
+
+        <div>
+            <h3 id="hab">Habilidades</h3>
+            <ul class=" linguagem">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li> JavaScript</li>
+                <li>FlexBox</li>
+            </ul>
+        </div>
+
+        <div>
+            <button class="contato">Entre em Contato</button>
+        </div>
+    </section>
+</body>
+
+</html>

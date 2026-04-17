@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+
+            <div>
+                <label for="nomeCompleto">Nome completo</label>
+                <input required type="text" name="nomeCompleto" id="nomeCompleto">
+                <!--Padrão de nomenclatura> nomeCompleto -> camelCase-->
+                <!--Padrão de Nomenclatura: NomeComplet -> PascalCase-->
+            </div>
+
+            <div>
+
+                <label for="email">E-mail</label>
+                <input required type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input required type="password" name="senha" id="senha">
+            </div>
+
+            <div>
+                <label for="telefone">Telefone</label>
+                <input required type="tel" maxlength="9" name="telefone" id="telefone" placeholder="(11)00000-0000">
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" rows="5" id="mensagem"></textarea>
+            </div>
+            <div>
+
+                <label for="estadoCivil">Estado Civil</label>
+                <select name="estadoCivil" id="estadoCivil">
+                    <option value="casado">Casado</option>
+                    <option value="solteiro">Solteiro</option>
+                    <option value="viuvo">Viúvo</option>
+                    <option value="divorciado">Divorciado</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="dataNascimento">Data de Nascimento</label>
+                <input type="date" name="dataNascimento" id="dataNascimento">
+                <input type="time" name="dataNascimento" id="dataNascimento">
+
+            </div>
+
+            <div>
+                <label for="arquivo">Arquivo</label>
+                <input type="file" name="arquivo" id="arquivo">
+            </div>
+
+            <button type="submit">Enviar </button>
+            <button type="reset">Limpar</button>
+
+
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

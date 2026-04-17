@@ -21,6 +21,13 @@
             
             para card (arredondar bordas) border-radius e mexe com o px -->
     <style>
+        /* "Reset universal: Recomendado para todos os projetos"*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             background: #020024;
             background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(30, 30, 34) 35%, rgb(38, 42, 43) 100%);
@@ -50,8 +57,12 @@
             color: rgb(127, 168, 166);
         }
 
+        ul {
+            list-style: none;
+        }
+
         .objetivo {
-            background-color: rgba(92, 128, 161, 0.418);
+            background-color: rgba(134, 164, 194, 0.418);
             border-radius: 30px 30px;
             width: fit-content;
             padding: 30px 20px;
