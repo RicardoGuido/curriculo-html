@@ -47,7 +47,7 @@ body {
     line-height: 1.6;
 
 }
-.h2{
+h2{
     font-size: clamp(1.75rem, 3rem, 3rem);
     font-weight: 700;
     line-height: 1.2;
@@ -409,3 +409,67 @@ line-height: 1;
     color: var(--cor-text-suave);
     line-height: 1.7;
 }
+
+
+/*EQUIPE******************/
+
+.equipe{
+    padding: var(--espaco-xxl) 0;
+}
+
+.container-equipe{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.dados-equipe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--espaco-xl);
+    margin-top: var(--espaco-xxl);
+}
+.membro-equipe{
+    width: 100%;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.avatar{
+    width: 112px;
+    height: 112px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    border-radius: 50%;
+    margin-bottom: var(--espaco-md);
+}
+
+.avatar:hover{
+    transform: scale(1.2);
+    transition: ease 0.3s;
+
+}
+
+.membro-cargo{
+    font-size: 0.875rem;
+    color: var(--cor-principal);
+    font-weight: 600;
+    margin-bottom: var(--espaco-sm);
+}
+
+.membro-descricao{
+    font-size: 0.875rem;
+    color: var(--cor-text-suave);
+    line-height: 1.5;
+    text-align: center;
+}
+
